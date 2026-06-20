@@ -104,7 +104,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -129,12 +129,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -206,6 +206,12 @@
 		(path "/f669d401-a14f-495d-9876-670e12fddbf6")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -371,7 +377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -408,10 +414,55 @@
 				)
 			)
 		)
+		(property "Sim.Device" "R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eeac1027-3cb3-48a0-b540-1ab77cebe56f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27619bf3-08c2-4953-8cac-149cbc85bdd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbf2aac4-bc69-4b4b-b209-7750a4a47dcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/aac6b7b0-f583-4a49-bdba-2c3f9d7b9407")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -565,7 +616,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "849471e9-ec3a-41fd-85b0-c81ae30ef146")
 		)
@@ -576,7 +627,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(R10-Pad1)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "7a1af0f6-fd8e-45b3-9c4b-37e5f3694e41")
 		)
@@ -587,7 +638,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "3")
+			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "530dae65-2f26-4549-b2df-663b6f2ef6f1")
 		)
@@ -688,6 +739,12 @@
 		(path "/be089c3d-0554-4f0d-b3aa-240a13477db2")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -834,7 +891,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(Q1-C)")
-			(pinfunction "C")
+			(pinfunction "C_1")
 			(pintype "passive")
 			(uuid "21c0bdec-ceaf-4138-a2ec-aa30f0306546")
 		)
@@ -845,7 +902,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(Q1-B)")
-			(pinfunction "B")
+			(pinfunction "B_2")
 			(pintype "input")
 			(uuid "de4e921b-ed1e-426a-a280-bfdcdcf24058")
 		)
@@ -856,7 +913,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(Q1-E)")
-			(pinfunction "E")
+			(pinfunction "E_3")
 			(pintype "passive")
 			(uuid "2a941d6c-5e9c-4fb3-9a7e-e4623eb120ad")
 		)
@@ -901,7 +958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -929,6 +986,12 @@
 		(path "/93fe34cb-8716-401c-8ee6-4a347c70dc5d")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1094,7 +1157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1122,6 +1185,12 @@
 		(path "/2e90e282-d8f2-4118-8b5d-6c99dc6fcad7")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1287,7 +1356,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1328,6 +1397,12 @@
 		(path "/c1b252c0-1cd9-462d-9149-91649d3aba28")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1493,7 +1568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1521,6 +1596,12 @@
 		(path "/4ec2ef54-8cfd-439a-aeb8-765530d47c1d")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1686,7 +1767,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1714,6 +1795,12 @@
 		(path "/930b3c9c-5705-4a21-8f43-69e4162835ad")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1879,7 +1966,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1907,6 +1994,12 @@
 		(path "/bfad3dfb-5d98-4236-8134-1f341ebc5ce4")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2032,7 +2125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2073,6 +2166,12 @@
 		(path "/c2676afc-c486-4106-9114-3b63e3474881")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2238,7 +2337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2266,6 +2365,12 @@
 		(path "/1bd02db4-f714-4f30-b4fd-87d3645116b0")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2392,7 +2497,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2420,6 +2525,12 @@
 		(path "/7516eb63-f8e5-45a4-afe0-83127dc47b13")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "2" "4" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2923,7 +3034,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "aa48e3ae-e9da-4a1f-a92f-94c517f27bb1")
 		)
@@ -2934,7 +3045,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/CV Mix In")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "75511c0e-7e29-43b9-b482-5d15989618b0")
 		)
@@ -2945,7 +3056,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "161c50c9-446e-4e87-a00c-2ba0e72392e9")
 		)
@@ -2956,7 +3067,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/Signal In")
-			(pinfunction "Pin_4")
+			(pinfunction "Pin_4_4")
 			(pintype "passive")
 			(uuid "a83d5a51-4813-4190-9da7-0f0f893496da")
 		)
@@ -2967,7 +3078,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "Pin_5")
+			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "ab0f73c8-4e85-4b09-b991-1a4bf84fd899")
 		)
@@ -2978,7 +3089,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/Signal Out")
-			(pinfunction "Pin_6")
+			(pinfunction "Pin_6_6")
 			(pintype "passive")
 			(uuid "9f0390e1-8d6d-4572-9e30-9a1f6bae38df")
 		)
@@ -3023,7 +3134,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3051,6 +3162,12 @@
 		(path "/1b0458bf-4dd6-47db-b45f-6015339d9dac")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3257,6 +3374,20 @@
 		(path "/d88648e0-3d7a-40cf-8930-c5eeaabeb57b")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "1")
+			)
+			(unit
+				(name "B")
+				(pins "5" "6" "7")
+			)
+			(unit
+				(name "C")
+				(pins "8" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3421,7 +3552,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/CV Mix In")
-			(pinfunction "-")
+			(pinfunction "-_2")
 			(pintype "input")
 			(uuid "baabd928-1f6d-4ede-9284-f26732b55cf0")
 		)
@@ -3432,7 +3563,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "+")
+			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "92791d40-552f-45bf-8bf5-5da6c61e41c7")
 		)
@@ -3443,7 +3574,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12V")
-			(pinfunction "V-")
+			(pinfunction "V-_4")
 			(pintype "power_in")
 			(uuid "8ec2bc81-8d65-4d99-a421-2e1e1b1cf97c")
 		)
@@ -3454,7 +3585,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(U1B-+)")
-			(pinfunction "+")
+			(pinfunction "+_5")
 			(pintype "input")
 			(uuid "adae22e7-cfa2-4c45-8800-254df12a0b51")
 		)
@@ -3465,7 +3596,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(U1B--)")
-			(pinfunction "-")
+			(pinfunction "-_6")
 			(pintype "input")
 			(uuid "54694093-e4dc-4335-a0d8-55b97e49e00c")
 		)
@@ -3486,7 +3617,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
-			(pinfunction "V+")
+			(pinfunction "V+_8")
 			(pintype "power_in")
 			(uuid "6cc000e6-45ce-436a-aa16-eaafa7e733a0")
 		)
@@ -3531,7 +3662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3572,6 +3703,12 @@
 		(path "/04277f5d-ad92-47a2-b781-dacbbfc2f3aa")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3806,6 +3943,12 @@
 		(path "/6b534dd2-448b-454c-9489-09e3405c2e12")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3952,7 +4095,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(Q2-C)")
-			(pinfunction "C")
+			(pinfunction "C_1")
 			(pintype "passive")
 			(uuid "e3053b30-49e5-438c-aea0-5de137642175")
 		)
@@ -3963,7 +4106,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(Q2-B)")
-			(pinfunction "B")
+			(pinfunction "B_2")
 			(pintype "input")
 			(uuid "be9feede-4888-4a2f-a7b8-392f848840e6")
 		)
@@ -3974,7 +4117,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(Q1-E)")
-			(pinfunction "E")
+			(pinfunction "E_3")
 			(pintype "passive")
 			(uuid "2fe828b6-3af6-4258-acd9-8ccb00a5354a")
 		)
@@ -4019,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4060,6 +4203,12 @@
 		(path "/0e207005-da7e-45a0-946f-99efe9524e95")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4225,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4253,6 +4402,12 @@
 		(path "/ee72dd26-4325-4d41-a90e-4f07eea3a8f6")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4418,7 +4573,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4459,6 +4614,12 @@
 		(path "/818dd05a-04c1-4a20-a1a7-f273bf1c3d25")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_VCA.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4597,8 +4758,8 @@
 		)
 	)
 	(gr_rect
-		(start 70 212.75)
-		(end 80 214.75)
+		(start 54.6 73.9)
+		(end 64.6 75.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -4640,8 +4801,8 @@
 		(layer "User.9")
 		(uuid "00a9661b-bc4e-493a-9a57-d5b24a34753b")
 	)
-	(gr_text "Mk1.0 - Month Year"
-		(at 74.75 216.25 0)
+	(gr_text "Mk1.0\nJune 2026"
+		(at 59.4 71.9 0)
 		(layer "B.SilkS")
 		(uuid "b8e4add2-3a99-4283-8ca5-566719c3b3b5")
 		(effects
@@ -6806,6 +6967,25 @@
 				(xy 71.44419 62.107128) (xy 71.484188 62.1005) (xy 75.402691 62.1005)
 			)
 		)
+	)
+	(group "VCA_DiffAmp"
+		(uuid "6466b887-308d-45c7-880c-da6cc5b25948")
+		(lib_id "SynthStuff:VCA_DiffAmp")
+		(members "08fcb577-659d-457e-9862-467ef40d165f" "175ad8ae-4b3c-4258-92c2-4d98044942bc"
+			"50af3e2c-5fd2-43ff-b3d7-d2c691426d2b" "58c16cc3-ba87-46fd-81fd-03b84d0f896d"
+			"5fbb2163-3c4b-4d70-a998-38e08d5a5c93" "7c01416f-0964-411f-8c85-fc32fffdf49c"
+			"7d1f6349-d031-4f00-86ad-bc408a96c252" "837b103e-5eda-4bf1-969a-62c30d588da9"
+			"8f404855-aeba-4408-9625-068bb74ba189" "906b65af-a160-4b1a-b101-2c6f314dc5f9"
+			"9d54ba0f-6286-467e-8a6b-d8065841f9ec" "add2ec98-72e2-4926-910b-9029a3f59b0c"
+			"ae2c829e-c655-4923-9b2f-7120f49f37bf" "c3f082fb-772a-4492-b49a-9858aa9564a9"
+			"c8265ce3-7308-407c-88c5-43f84aefd12a" "cd6d3fe1-b294-4cfd-9a5f-370c1401a90f"
+			"de232a51-d1a2-4aaf-bb1c-f2c5847c8e36" "fe72bc7c-0cc1-470a-ab85-27df39b5d6ae"
+		)
+	)
+	(group "VCA_DiffAmp_Submodule"
+		(uuid "bef61a49-3a29-45c2-a024-ec5551f7d4c1")
+		(lib_id "SynthStuff:VCA_DiffAmp_Submodule")
+		(members "9e067af6-e652-43ca-ba52-1bb9cfc2c0f4")
 	)
 	(embedded_fonts no)
 )
