@@ -635,7 +635,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "",
     "bom_fmt_presets": [],
@@ -751,7 +751,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "R28",
+    "used_designators": "R1-35,#FLG1-3,J1-2,#PWR1-29,#PWR128-132,U1-2,RV1-5,JP1-2,C1-4,Q1-4",
     "variants": []
   },
   "sheets": [
