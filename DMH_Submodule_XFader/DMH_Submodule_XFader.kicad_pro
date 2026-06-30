@@ -60,64 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|54105000|57690000|c633eb3d-f5b6-4318-b83d-370904627982|e0dd4852-9562-4a1b-b8f0-cebb7ce9c005",
-          ""
-        ],
-        [
-          "silk_edge_clearance|54105000|58895000|c633eb3d-f5b6-4318-b83d-370904627982|8c2962fd-e650-44f5-963c-4f043a513109",
-          ""
-        ],
-        [
-          "silk_edge_clearance|54105000|60100000|c633eb3d-f5b6-4318-b83d-370904627982|c8bcef13-1f1c-437a-9b09-b2d10f9016e3",
-          ""
-        ],
-        [
-          "silk_edge_clearance|54105000|60100000|c633eb3d-f5b6-4318-b83d-370904627982|fb740447-36eb-4952-94ef-cef2913441c4",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95000000|63580000|c633eb3d-f5b6-4318-b83d-370904627982|b76929d1-6a12-4d97-bdb2-43ba074105c6",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95000000|66230000|c633eb3d-f5b6-4318-b83d-370904627982|3b4ab3c4-e15e-4110-b075-d4f7c889349c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95000000|68770000|c633eb3d-f5b6-4318-b83d-370904627982|4408f160-cf42-439c-a4df-6a93d2fa1e44",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95030000|64530000|c633eb3d-f5b6-4318-b83d-370904627982|35a901c5-5219-42d4-b9a8-9d36a3cd8c21",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95030000|67070000|c633eb3d-f5b6-4318-b83d-370904627982|fff8292b-51c2-42c4-af5a-170410e764e0",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95030000|67930000|c633eb3d-f5b6-4318-b83d-370904627982|6b809056-c2d3-468b-8eda-e54f358b7637",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95030000|69610000|c633eb3d-f5b6-4318-b83d-370904627982|8289af32-0e5a-479a-b56f-aecc8be574b0",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95030000|70470000|c633eb3d-f5b6-4318-b83d-370904627982|a6b2dbf5-3158-4586-82cc-32ab9c115920",
-          ""
-        ],
-        [
-          "silk_over_copper|70214285|74250000|2407cd19-5383-4396-910b-17e4b56ac47b|ce30a63b-70ff-4ff6-92a6-335102ad6fc3",
-          ""
-        ],
-        [
-          "silk_over_copper|80416666|63085771|6a19ec50-7e76-44aa-940f-42628c89d57d|19ab1a52-fa27-43f3-a54e-8a31562dfaa1",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -751,7 +694,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "R1-35,#FLG1-3,J1-2,#PWR1-29,#PWR128-132,U1-2,RV1-5,JP1-2,C1-4,Q1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
