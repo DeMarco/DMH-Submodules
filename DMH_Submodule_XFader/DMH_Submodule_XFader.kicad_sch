@@ -8810,8 +8810,9 @@
 				)
 			)
 		)
-		(property "Function" ""
+		(property "Function" "4x BC548"
 			(at 180.34 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9867,7 +9868,7 @@
 				)
 			)
 		)
-		(property "Function" "Zero adj"
+		(property "Function" "CV zero"
 			(at 88.9 27.178 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10917,8 +10918,8 @@
 				)
 			)
 		)
-		(property "Function" "Symmetry B"
-			(at 223.52 241.3 0)
+		(property "Function" "B"
+			(at 218.44 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11129,8 +11130,8 @@
 				)
 			)
 		)
-		(property "Function" "Symmetry A"
-			(at 223.52 101.6 0)
+		(property "Function" "A"
+			(at 218.44 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
