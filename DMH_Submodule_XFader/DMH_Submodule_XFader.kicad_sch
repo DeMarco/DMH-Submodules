@@ -3132,6 +3132,12 @@
 		(uuid "608623fb-e5a9-4411-938e-82990a0e2ebb")
 	)
 	(junction
+		(at 66.04 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63c005ac-fec0-4000-911f-e78d1e1de928")
+	)
+	(junction
 		(at 101.6 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3244,12 +3250,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb401275-3713-42b1-9343-2c037c624264")
-	)
-	(junction
-		(at 63.5 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc3da2fe-61fe-4ca3-ab34-9f2b59f0a1c0")
 	)
 	(junction
 		(at 25.4 252.73)
@@ -3951,16 +3951,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 204.47) (xy 63.5 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50279e98-0b45-4088-8675-1f43253d4079")
-	)
-	(wire
-		(pts
 			(xy 96.52 124.46) (xy 101.6 124.46)
 		)
 		(stroke
@@ -4651,6 +4641,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 207.01) (xy 50.8 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3df99c-984d-4f81-9f81-9f851bf2af77")
+	)
+	(wire
+		(pts
 			(xy 77.47 25.4) (xy 77.47 35.56)
 		)
 		(stroke
@@ -4661,7 +4661,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 204.47) (xy 63.5 204.47)
+			(xy 43.18 204.47) (xy 66.04 204.47)
 		)
 		(stroke
 			(width 0)
@@ -4998,6 +4998,16 @@
 			(type default)
 		)
 		(uuid "dbbfdec4-7bf5-4e64-9af3-aa7b7721189b")
+	)
+	(wire
+		(pts
+			(xy 66.04 204.47) (xy 66.04 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca4144e-513b-41f4-b602-6b7e6d6f7378")
 	)
 	(wire
 		(pts
@@ -5975,7 +5985,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e207005-da7e-45a0-946f-99efe9524e95")
 		(property "Reference" "R10"
 			(at 133.35 82.55 90)
@@ -6548,7 +6557,6 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 177.8 171.45 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6558,7 +6566,7 @@
 		(dnp no)
 		(uuid "2277d81c-6e5b-40bc-b556-a6dff7e068b8")
 		(property "Reference" "R23"
-			(at 175.26 170.1799 0)
+			(at 175.26 172.7201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6569,7 +6577,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 175.26 172.7199 0)
+			(at 175.26 170.1801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6580,7 +6588,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 178.816 171.196 90)
+			(at 178.816 171.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7335,7 +7343,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 63.5 204.47 270)
+		(at 66.04 204.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7346,7 +7354,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f2ce335-fe72-4213-bb9d-5e2a0b31fe6b")
 		(property "Reference" "#FLG02"
-			(at 65.405 204.47 0)
+			(at 67.945 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7357,7 +7365,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 67.31 204.4699 90)
+			(at 69.85 204.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7368,7 +7376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 204.47 0)
+			(at 66.04 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7379,7 +7387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 204.47 0)
+			(at 66.04 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7390,7 +7398,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 63.5 204.47 0)
+			(at 66.04 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,7 +8265,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 63.5 208.28 180)
+		(at 66.04 208.28 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8268,7 +8276,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e02af84-afa5-430c-bc73-6f8118af5a89")
 		(property "Reference" "#PWR029"
-			(at 63.5 204.47 0)
+			(at 66.04 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8279,7 +8287,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 63.5 213.36 0)
+			(at 66.04 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8289,7 +8297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 208.28 0)
+			(at 66.04 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8300,7 +8308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 208.28 0)
+			(at 66.04 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8311,7 +8319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 63.5 208.28 0)
+			(at 66.04 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8415,7 +8423,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 234.95 137.16 90)
+		(at 234.95 137.16 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8423,7 +8432,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52422002-c77b-430c-9ead-25eefc3b4802")
 		(property "Reference" "R21"
 			(at 234.95 130.81 90)
@@ -8446,7 +8454,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 235.204 136.144 90)
+			(at 234.696 136.144 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8932,7 +8940,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 234.95 127 90)
+		(at 234.95 127 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8940,7 +8949,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "72ac6ace-9660-4368-a7b8-73b9ad9926e2")
 		(property "Reference" "R18"
 			(at 234.95 120.65 90)
@@ -8963,7 +8971,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 235.204 125.984 90)
+			(at 234.696 125.984 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9707,7 +9715,6 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 177.8 31.75 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9717,7 +9724,7 @@
 		(dnp no)
 		(uuid "818dd05a-04c1-4a20-a1a7-f273bf1c3d25")
 		(property "Reference" "R3"
-			(at 175.26 30.4799 0)
+			(at 175.26 33.0201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9728,7 +9735,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 175.26 33.0199 0)
+			(at 175.26 30.4801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9739,7 +9746,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 178.816 31.496 90)
+			(at 178.816 32.004 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10008,7 +10015,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 69.85 35.56 90)
+		(at 69.85 35.56 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10016,7 +10024,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8aa0728d-ad9f-4602-a9e0-2596cb1c873e")
 		(property "Reference" "R4"
 			(at 69.85 29.21 90)
@@ -10039,7 +10046,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 70.104 34.544 90)
+			(at 69.596 34.544 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12374,6 +12381,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 50.8 207.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1cb9d4-4331-4ecb-ab24-fa28ebd191f1")
+		(property "Reference" "#FLG03"
+			(at 52.705 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.61 207.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 50.8 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "583fed34-8145-4aed-ae81-da183f7391e8")
+		)
+		(instances
+			(project "DMH_Submodule_XFader"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 208.28 0)
 		(unit 1)
@@ -13055,7 +13141,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 152.4 171.45 180)
+		(at 152.4 171.45 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13063,10 +13150,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "efba428a-76a5-4e00-88e9-4003d495cc07")
 		(property "Reference" "R22"
-			(at 154.94 170.1799 0)
+			(at 154.94 172.7201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13077,7 +13163,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 154.94 172.7199 0)
+			(at 154.94 170.1801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13088,7 +13174,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 151.384 171.196 90)
+			(at 151.384 171.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13147,7 +13233,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 152.4 31.75 180)
+		(at 152.4 31.75 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13155,10 +13242,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f669d401-a14f-495d-9876-670e12fddbf6")
 		(property "Reference" "R2"
-			(at 154.94 30.4799 0)
+			(at 154.94 33.0201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13169,7 +13255,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 154.94 33.0199 0)
+			(at 154.94 30.4801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13180,7 +13266,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 151.384 31.496 90)
+			(at 151.384 32.004 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
