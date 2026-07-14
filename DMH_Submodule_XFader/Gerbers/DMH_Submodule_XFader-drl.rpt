@@ -1,0 +1,23 @@
+Drill report for DMH_Submodule_XFader.kicad_pcb
+Created on 2026-07-15T01:40:41
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DMH_Submodule_XFader-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.800mm  0.0315"  (115 holes))
+    T2  1.000mm  0.0394"  (12 holes))
+
+    Total plated holes count 127
+
+
+Drill file 'DMH_Submodule_XFader-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
