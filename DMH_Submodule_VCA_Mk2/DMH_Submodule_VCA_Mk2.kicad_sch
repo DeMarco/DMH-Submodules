@@ -3935,26 +3935,6 @@
 		)
 		(uuid "ff7672cf-ed78-4e0a-8215-e47a295934ea")
 	)
-	(label "Signal_Out"
-		(at 241.3 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0582d943-e3d5-4633-a469-ef65837520f2")
-	)
-	(label "Signal_Out"
-		(at 127 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10dd4cc7-340b-4e63-b165-9e0a81529a88")
-	)
 	(label "CV In 2"
 		(at 27.94 73.66 180)
 		(effects
@@ -3973,7 +3953,47 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "373d3750-b5cd-4315-8a52-b9631b491daf")
+		(uuid "79480d24-894c-45ea-aa58-861d3c968b3f")
+	)
+	(label "Signal_Out"
+		(at 127 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f01715e-2925-4876-9e50-dfd299ae1586")
+	)
+	(label "Signal_In"
+		(at 127 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "885e95f6-dd78-45aa-a3ad-0b42a0db9573")
+	)
+	(label "CV_Mix_In"
+		(at 127 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9508ed50-8291-4d6c-9258-53ee5830c025")
+	)
+	(label "Signal_Out"
+		(at 241.3 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae9bb57a-0a25-4f44-854a-1023df319dac")
 	)
 	(label "CV_Mix_In"
 		(at 107.95 124.46 180)
@@ -3983,7 +4003,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "55e1d11f-d9b8-431c-ae7e-8dfc974e642e")
+		(uuid "e6f431e0-884f-47c2-9082-9090506203da")
 	)
 	(label "CV In 1"
 		(at 27.94 35.56 180)
@@ -3994,26 +4014,6 @@
 			(justify right bottom)
 		)
 		(uuid "e81a1815-c450-47bc-b28b-6a5f68a9e418")
-	)
-	(label "Signal_In"
-		(at 127 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed090211-8efb-4865-baff-0f2cdfbd332f")
-	)
-	(label "CV_Mix_In"
-		(at 127 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f395e4ad-184b-4524-ac2f-38e2009f7e4d")
 	)
 	(label "CV Mix In"
 		(at 69.85 124.46 0)
@@ -7327,7 +7327,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 165.1 107.95 180)
+		(at 165.1 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7335,10 +7336,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "930b3c9c-5705-4a21-8f43-69e4162835ad")
 		(property "Reference" "R5"
-			(at 167.64 106.6799 0)
+			(at 167.64 109.2201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7349,7 +7349,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 167.64 109.2199 0)
+			(at 167.64 106.6801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7360,7 +7360,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 164.084 107.696 90)
+			(at 164.084 108.204 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,7 +7489,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 190.5 95.25 180)
+		(at 190.5 95.25 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7497,10 +7498,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93fe34cb-8716-401c-8ee6-4a347c70dc5d")
 		(property "Reference" "R7"
-			(at 193.04 93.9799 0)
+			(at 193.04 96.5201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7511,7 +7511,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 193.04 96.5199 0)
+			(at 193.04 93.9801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7522,7 +7522,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 189.484 94.996 90)
+			(at 189.484 95.504 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8365,7 +8365,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 196.85 88.9 270)
+		(at 196.85 88.9 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8373,7 +8374,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1b252c0-1cd9-462d-9149-91649d3aba28")
 		(property "Reference" "R10"
 			(at 196.85 82.55 90)
@@ -8396,7 +8396,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 196.596 89.916 90)
+			(at 197.104 89.916 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
