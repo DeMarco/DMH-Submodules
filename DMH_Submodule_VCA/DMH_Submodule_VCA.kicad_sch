@@ -5,9 +5,10 @@
 	(uuid "58f4306d-5387-4983-bb08-41a2313fd315")
 	(paper "A4")
 	(title_block
+		(title "VCA Submodule")
 		(rev "1")
 		(company "DMH Instruments")
-		(comment 1 "PCB for 5 cm Kosmo format synthesizer module")
+		(comment 1 "Submodule PCB Kosmo format synthesizer module")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"

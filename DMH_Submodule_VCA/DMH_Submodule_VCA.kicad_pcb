@@ -8,9 +8,10 @@
 	)
 	(paper "A4" portrait)
 	(title_block
+		(title "VCA Submodule")
 		(rev "1")
 		(company "DMH Instruments")
-		(comment 1 "10cm Kosmo format synthesizer module PCB")
+		(comment 1 "Submodule PCB Kosmo format synthesizer module")
 	)
 	(layers
 		(0 "F.Cu" signal)

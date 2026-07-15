@@ -8,9 +8,11 @@
 	)
 	(paper "A4" portrait)
 	(title_block
+		(title "Cross Fader Submodule")
+		(date "2026-07-15")
 		(rev "1")
 		(company "DMH Instruments")
-		(comment 1 "10cm Kosmo format synthesizer module PCB")
+		(comment 1 "Submodule PCB for Kosmo format synthesizer module")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -5368,7 +5370,7 @@
 		(at 57.635 94.02 180)
 		(descr "Through hole angled pin header, 1x08, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x08 2.54mm single row")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 0.035 -2.38 0)
 			(layer "F.SilkS")
 			(uuid "11d17449-1051-46b0-aa53-84695572014a")
@@ -7358,7 +7360,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/ec71a031-bf0e-4681-9bf0-b1c1ec66d3dc")
+		(path "/bc8d2498-b1b0-4bb6-80b2-0473351cd4a1")
 		(sheetname "/")
 		(sheetfile "DMH_Submodule_XFader.kicad_sch")
 		(units
@@ -9764,7 +9766,7 @@
 		(at 57.635 63.54 180)
 		(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x04 2.54mm single row")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 0.035 -2.39 0)
 			(layer "F.SilkS")
 			(uuid "13f5d375-a3c2-4602-8bb5-5bf08e4540be")
@@ -16029,6 +16031,34 @@
 				(xy 74.356706 57.712011) (xy 74.3455 57.6605) (xy 74.3455 56.979601) (xy 74.365185 56.912562) (xy 74.413206 56.869116)
 				(xy 74.42661 56.862287) (xy 74.592219 56.741966) (xy 74.687664 56.64652) (xy 74.748983 56.613038)
 			)
+		)
+	)
+	(group "VC_Cross_Fader_SC"
+		(uuid "976a29d6-9249-44b1-a345-8e60817520c8")
+		(lib_id "SynthStuff:VC_Cross_Fader_SC")
+		(members "156aba6d-8716-4206-91db-de05616f5240" "15aec086-26ae-4e8f-a86d-fc440ad5c0df"
+			"1bb2db6c-582a-4b0e-8f4b-40b66a64ff61" "1fbbc819-05f1-47c2-8f1f-3bb8db341822"
+			"2b17a480-4af7-4e7f-991c-c097a11cd05d" "2e6d8948-6522-4f16-a307-ca4d9cc91755"
+			"30a23566-8bf4-4b6c-9b6a-75067ad19441" "369e710e-8de4-4dfb-ba15-73f4a77e019f"
+			"3956684d-cae4-4243-94fb-70f2736e98bc" "3d31149a-1864-4833-a03c-665f6cdabaeb"
+			"4461cd04-9275-4659-b197-4b0a686f2318" "56fed60b-4643-4708-9870-a6b837a88053"
+			"579d0aa6-73d9-4fb3-8abd-fc4274f45e4c" "583ccfeb-c872-4696-8f8f-0a6ca50f942c"
+			"5cca8f87-57cb-4272-b579-1a8804907ffc" "62c581da-ec56-4d57-96db-f129a8c06fc2"
+			"6a76fc0e-b09a-4e82-a521-1a4951e7ec7f" "6addff73-f2e9-4120-810d-7575553e364f"
+			"6c44f2a9-b4d8-40ea-8808-e1d65c021900" "7ae55dee-329c-4567-90b2-6424e93c5628"
+			"7bda555e-0de3-4edf-9854-241fcc90ec5e" "7c7e3e80-d168-4189-b051-6f808cd3f5fb"
+			"8320bda0-bc39-43a6-bfd5-06237ac0b623" "83eb8756-2e68-4a08-b851-e0782be10ee8"
+			"943f40ae-fc1c-4c4e-94ca-81dc930d78a3" "a59fb55c-dbe2-459e-b66d-08ceac7bc7c9"
+			"a6847c59-0b88-4466-8f82-91429cfb9da5" "a7a44be9-6090-4319-bec9-8a12132698da"
+			"ab5b8e30-2d71-4c6c-80ac-5a0302db4a4d" "ae2c829e-c655-4923-9b2f-7120f49f37bf"
+			"afca08c2-80c1-43d7-a743-0dc600a95ba6" "b1e27e14-d0ae-422f-8d6e-d1a523b2b754"
+			"b31ed478-7adb-466e-8d2f-699db136c7fa" "b9ee7b7e-a13e-4061-a12f-e3fcc1a05ca6"
+			"bce84751-ac23-4f29-8e5b-f7fc7d983cce" "c82e422e-f4c9-487b-a626-ad07bfc0854c"
+			"ca2998d3-202b-48cb-b112-83c1974e139a" "d63632fb-12e3-44c3-870f-47094aa139c1"
+			"d764697f-4978-448c-ae33-f1167d715a5b" "d9cee89f-b31c-41ec-8999-375c455e500d"
+			"ddebb524-a01e-48f0-9f1e-0a30325e7d16" "e8fcf28e-4c9d-4f11-a848-cb953976e413"
+			"e94f4345-b8fb-4abc-9fc7-42fb7c7bc8f3" "fc67f0af-7d82-489c-b288-521ec357eebf"
+			"ff8c768b-9eea-4238-a85c-2a25bcef61ad"
 		)
 	)
 	(embedded_fonts no)
