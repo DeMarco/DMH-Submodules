@@ -86,11 +86,11 @@
           ""
         ],
         [
-          "silk_over_copper|69806666|66260771|34cb7506-2f73-457a-86d0-2143b5a75594|db3b1f91-d6bd-4961-a815-ec9c33d8d03f",
+          "silk_over_copper|69806666|53025771|c59045fd-41cc-4818-8c3e-29bbcea17da3|df476d3a-7e7b-4a69-b713-967b54aaf9bb",
           ""
         ],
         [
-          "silk_over_copper|70640000|53121009|c59045fd-41cc-4818-8c3e-29bbcea17da3|df476d3a-7e7b-4a69-b713-967b54aaf9bb",
+          "silk_over_copper|70640000|66356009|34cb7506-2f73-457a-86d0-2143b5a75594|db3b1f91-d6bd-4961-a815-ec9c33d8d03f",
           ""
         ]
       ],
@@ -708,6 +708,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -727,7 +735,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C5,R20-21,JP1-2,TP1",
     "variants": []
   },
   "sheets": [
